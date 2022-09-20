@@ -1,11 +1,17 @@
+/* ====== ESTILS PER MIDA DESKTOP =========================*/
+
+/* ----- ZONA DEBUGGER -----*/
+
 /* 
     * {
-        /* activem els borders de totes les peces nomes mentre elaborem la pag  */
+        /* activem borders de les peces mentre elaborem o depurem la pag  */
         /* border-style: solid;   
         border-width: 1px;     
         border-color: hotpink; 
     } 
 */
+
+/* ----- ZONA GENERAL -----*/
 
 #content {
     height: 360px;
@@ -23,6 +29,8 @@
     flex-direction: row;          
     justify-content: space-between;
 }
+
+/* ----- ZONA HEADER -----*/
 
 header {
     border-style: solid;
@@ -84,6 +92,8 @@ header {
     border-width: 10px;
 }
 
+/* ----- ZONA MAIN -----*/
+
 main {
     border-style: solid;
     border-color: black;
@@ -131,11 +141,6 @@ main > article > section {
     background-color: #40465a;
 }
 
-/* #content > main > article > section > post {
-    width: 48%;
-    background-color:#1465b1;
-} */
-
 .art-corto {
     width: 48%;
     background-color:#1465b1;
@@ -157,6 +162,12 @@ main > article > section {
     align-self: auto;
 }
 
+.aside-item {
+    margin-top: 5px;
+}
+
+/* ----- ZONA FOOTER -----*/
+
 footer {
     border-style: solid;
     border-color: black;
@@ -170,6 +181,3 @@ footer > p {
     margin: 0px;
 }
 
-.aside-item {
-    margin-top: 5px;
-}
