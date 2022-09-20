@@ -30,6 +30,7 @@
     justify-content: space-between;
 }
 
+
 /* ----- ZONA HEADER -----*/
 
 header {
@@ -133,7 +134,6 @@ aside > section > p {
 .flex-vertical-dalt {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
 }
 
 main > article > section {
